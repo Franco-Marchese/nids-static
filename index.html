@@ -35,11 +35,11 @@
     <body>
         <div class="relative">
             <div class="mx-auto max-w-7xl">
-              <div class="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+              <div class="relative z-10 pt-2 lg:w-full lg:max-w-2xl">
                 <svg class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
                   <polygon points="0,0 90,0 50,100 0,100" />
                 </svg>
-                <div class="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-6 lg:pr-0">
+                <div class="relative px-6 py-0.5 sm:py-40 lg:px-8 lg:py-6 lg:pr-0">
                   <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                     <!-- <div class="hidden sm:mb-10 sm:flex">
                       <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -56,13 +56,13 @@
                 </div>
               </div>
             </div>
-            <div id="image-ctn" class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-              <!-- <img class="aspect-[16/9] object-cover lg:aspect-auto lg:h-full lg:w-full" src="img/hero/hero a.jpg" alt=""> -->
+            <div id="image-ctn" class="bg-gray-50 py-8 shadow-lg lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+              <img class="aspect-[16/9] object-cover lg:aspect-auto lg:h-full lg:w-full" src="img/hero/hero a.jpg" alt="">
             </div>
           </div>
         </div>
         <!-------------------------------------------------------------stats------------------------------------------------------------------> 
-        <div class="bg-white py-24 sm:py-32">
+        <div class="bg-white py-2 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
               <div class="mx-auto max-w-2xl lg:max-w-none">
                   <div class="text-center">
@@ -71,54 +71,63 @@
                           El crecimiento, rendimiento y logros de nuestro centro se resumen en las siguientes estadísticas de progreso.
                       </p>
                   </div>
-                  <dl class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0.5 overflow-hidden rounded-2xl text-center shadow-lg">
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                  <dl class="mt-16 flex flex-row overflow-x-auto lg:grid-cols-4 gap-0.5 rounded-2xl text-center shadow-lg">
+                    <!-- División 1 para overflow -->
+                      <div class="grid grid-cols-2">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Asociados</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">7</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Asistentes de Investigación</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Nacionales</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">12</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Internacionales</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
+                        </div>
                       </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Asistentes de Investigación</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Nacionales</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">12</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Internacionales</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                    <!-- División 2 para overflow -->
+                      <div class="grid grid-cols-2">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Publicaciones Indexadas</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+20</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Conferencias / Congresos</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Memoristas UDLA</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Practicantes UDLA</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+10</dd>
+                        </div>
                       </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Conferencias / Congresos</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Memoristas UDLA</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Practicantes UDLA</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+10</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                    <!-- División 3 para overflow -->
+                      <div class="grid grid-cols-2">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Vinculación con el Medio</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">4</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Proyectos con Fondos Internos adjudicación</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">3</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Co-tutorias de Memorias otras universidades</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
-                      </div>
-                      <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
-                          <dt class="text-sm font-semibold leading-6 text-gray-600">Participación en programas de Postgrado UDLA</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Co-tutorias de Memorias otras universidades</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
+                        </div>
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                            <dt class="text-sm font-semibold leading-6 text-gray-600">Participación en programas de Postgrado UDLA</dt>
+                            <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
+                        </div>
                       </div>
                   </dl>
               </div>
@@ -219,7 +228,7 @@
     </body>
     <script src="js/index.js"></script>
     <footer class="bg-white border-2 border-t-zinc-400 mt-6">
-        <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+        <div class="mx-auto max-w-7xl overflow-hidden px-6 py-3 lg:py-20 lg:px-8">
           <div class="mt-10 flex justify-center space-x-10">
             <a href="https://www.facebook.com/UDLAChile" target=blank_ class="text-gray-400 hover:text-orange-600">
               <span class="sr-only">Facebook</span>
