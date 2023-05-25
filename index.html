@@ -71,64 +71,109 @@
                           El crecimiento, rendimiento y logros de nuestro centro se resumen en las siguientes estadísticas de progreso.
                       </p>
                   </div>
-                  <dl class="mt-16 flex flex-row overflow-x-auto lg:grid-cols-4 gap-0.5 rounded-2xl text-center shadow-lg">
-                    <!-- División 1 para overflow -->
-                      <div class="grid grid-cols-2">
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+
+                  <!-- Para vista monitor -->
+                  <dl class="hidden md:mt-16 md:flex md:flex-row md:place-content-center md:overflow-x-auto md:grid md:grid-cols-4 md:gap-0.5 md:rounded-2xl md:text-center md:shadow-lg">
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                      <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Asociados</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">7</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Asistentes de Investigación</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Nacionales</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">12</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Internacionales</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                      <dt class="text-sm font-semibold leading-6 text-gray-600">Publicaciones Indexadas</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+20</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Conferencias / Congresos</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Memoristas UDLA</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Practicantes UDLA</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+10</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                      <dt class="text-sm font-semibold leading-6 text-gray-600">Vinculación con el Medio</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">4</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                      <dt class="text-sm font-semibold leading-6 text-gray-600">Proyectos con Fondos Internos adjudicación</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">3</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Co-tutorias de Memorias otras universidades</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Participación en programas de Postgrado UDLA</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
+                    </div>
+                  </dl>
+
+                  <!-- Para vista celular -->
+                  <dl class="mt-16 flex flex-row overflow-x-auto gap-0.5 rounded-2xl text-center shadow-lg md:hidden">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Asociados</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">7</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Asistentes de Investigación</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Nacionales</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">12</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Investigadores Externos Internacionales</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
                         </div>
-                      </div>
-                    <!-- División 2 para overflow -->
-                      <div class="grid grid-cols-2">
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Publicaciones Indexadas</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+20</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Conferencias / Congresos</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">8</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Memoristas UDLA</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Practicantes UDLA</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">+10</dd>
                         </div>
-                      </div>
-                    <!-- División 3 para overflow -->
-                      <div class="grid grid-cols-2">
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Vinculación con el Medio</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">4</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                           <dt class="text-sm font-semibold leading-6 text-gray-600">Proyectos con Fondos Internos adjudicación</dt>
                           <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">3</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Co-tutorias de Memorias otras universidades</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">5</dd>
                         </div>
-                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg">
+                        <div class="flex flex-col bg-gray-400/5 p-8 shadow-lg place-content-center">
                             <dt class="text-sm font-semibold leading-6 text-gray-600">Participación en programas de Postgrado UDLA</dt>
                             <dd class="order-first text-3xl font-semibold tracking-tight text-orange-600">2</dd>
                         </div>
-                      </div>
                   </dl>
               </div>
           </div>
